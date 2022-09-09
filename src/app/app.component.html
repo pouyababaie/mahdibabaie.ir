@@ -1,5 +1,15 @@
-<mh-header></mh-header>
+<main class="row w-100 h-100 m-0 p-0">
+  <div class="col-24">
+    <mh-header></mh-header>
+  </div>
 
-<router-outlet></router-outlet>
+  <div class="col-24">
+    <div [@routeAnimations]="getRouteAnimationData()">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 
-<mh-footer></mh-footer>
+  <div class="col-24">
+    <mh-footer></mh-footer>
+  </div>
+</main>
