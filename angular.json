@@ -48,10 +48,15 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "node_modules/mdb-ui-kit/css/mdb.min.css",
+              "node_modules/aos/dist/aos.css",
               "src/styles/main.css",
               "src/styles.scss"
             ],
-            "scripts": ["node_modules/mdb-ui-kit/js/mdb.min.js"]
+            "scripts": [
+              "node_modules/mdb-ui-kit/js/mdb.min.js",
+              "node_modules/aos/dist/aos.js",
+              "src/assets/main.js"
+            ]
           },
           "configurations": {
             "production": {
